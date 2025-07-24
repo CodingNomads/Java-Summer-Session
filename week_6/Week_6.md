@@ -139,12 +139,22 @@ System.out.println(stringBox.get());
 ## Quiz Questions
 
 1. **What is an exception in Java?**
+It's an error/event that disrupts the normal flow.
+To avoid an application crash, use try/catch block
+If you don't know what to do when the exception happens, throw it
+A method that throws an exception must indicate that it might throw an
+exception using the "throws" keyword
 
 2. **What block is always executed regardless of an exception?**
+The "finally" block (which is optional) will ALWAYS be executed
 
 3. **How do you define a custom exception?**
+By creating a new class that "extends Exception"
+Don't forget about the constructor that takes a message
+and passes it to the super constructor "super(msg);"
 
 4. **Which classes are used for reading text files line by line?**
+The BufferedReader/BufferedWriter classes can read/write line-by-line
 
 5. **What does `<T>` represent in a generic class?**
 

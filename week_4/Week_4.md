@@ -133,16 +133,28 @@ public class Manager extends Employee {
 ## Quiz Questions
 
 1. **What is encapsulation?**
+All data about a cat and methods that act that Ccat data should be in the Cat class
+Furthermore, we can lock it down by making variables and methods private
 
 2. **What does `extends` mean in a class declaration?**
+Extends means your inheriting the public & protected instance variables 
+and methods in the parent class - if you extend a class - you ARE that class
 
 3. **What is method overriding?**
+When you override a method in a parent class to change the behavior
+for instance - when a motorcycle override the accelerate method in the Vehicle class
 
 4. **What is an abstract class?**
+An abstract class is a class thaht implements SOME but NOT ALL of the abstract (empty)
+methods in the interface it implements - any class that EXTENDS an abstract class
+is required to implement the non-implemented methods in the abstract class
 
 5. **How do you call a superclass constructor?**
+By using "super()" - it must always be the very first thing you do in a child constructor
 
 6. **What’s the difference between `this` and `super`?**
+The difference is that "this" refers to things in THIS instance (class/object)
+"Super" refers to things in a parent class
 
 ---
 

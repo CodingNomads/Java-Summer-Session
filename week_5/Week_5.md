@@ -111,18 +111,34 @@ Use `package` and `import` statements to reference files.
 ## Quiz Questions
 
 1. **What does `static` mean in Java?**
+static (there are static variables and static methods)
+static members (variables and methods) belong to the class - not any specific object/instance of that class
 
 2. **Can a static method access instance variables directly?**
+Short answer is no. Non-static variables are not accessible from within a static context
 
 3. **What is the purpose of using packages?**
+Just to help organize code - control access to variables and methods with:
+- public
+- private
+- protected
+- default (no access modifier provided)
 
 4. **Which statement is correct?**
    a) `object.staticMethod()`
    b) `ClassName.staticMethod()`
+"b" is correct - static method (and variables)
+are accessed through the Class (capital first letter)
+not any instance (aka object of that class)
 
 5. **What is one benefit of modular code?**
+* enhance reusability
+* better organization
+* easier to maintain, debug, understand
+* DRY - organize, don't repeat yourself
 
 6. **What keyword is used to define a package at the top of a file?**
+"package"
 
 ---
 
