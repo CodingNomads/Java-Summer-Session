@@ -1,4 +1,4 @@
-package week_6;
+package week_6.IO;
 
 import java.io.FileWriter;
 import java.io.IOException;

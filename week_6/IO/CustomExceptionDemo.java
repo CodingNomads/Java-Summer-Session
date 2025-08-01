@@ -1,4 +1,4 @@
-package week_6;
+package week_6.IO;
 
 public class CustomExceptionDemo extends Exception{
 

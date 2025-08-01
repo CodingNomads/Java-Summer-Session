@@ -1,4 +1,6 @@
-package week_6;
+package week_6.IO;
+
+import week_6.generics.Student;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -14,7 +16,7 @@ public class CSVReader {
 
         try {
             reader = new BufferedReader(
-                    new FileReader("week_6/students.csv"));
+                    new FileReader("week_6/IO/students.csv"));
             String line = "";
             while ((line = reader.readLine()) != null) {
                 // print out the line that was just read
@@ -57,7 +59,7 @@ public class CSVReader {
 
         if (!badData.isEmpty()){
 
-            try (FileWriter writer = new FileWriter("week_6/bad_data.txt")) {
+            try (FileWriter writer = new FileWriter("week_6/IO/bad_data.txt")) {
                for(String s : badData) {
                    writer.write(s);
                }

@@ -122,14 +122,23 @@ r.run();
 ## Quiz Questions
 
 1. **What is the difference between `start()` and `run()` in a Thread?**
+start() begins the execution - we call start() on a thread we want to start
+run() is called automatically by the Thread class after we start() it
 
 2. **What keyword is used to make a method thread-safe?**
+synchronized
 
 3. **What is a lambda expression?**
+A lambda expression consist of an arrow that points to a body
+That body (after the arrow) is the implementation of the abstract method
+coming from the Functional Interface that you're using.
+An anonymous function.
 
-4. **Which interface would you use to evaluate a condition?**
+4. **Which functional interface (FI) would you use to evaluate a condition?**
+Any type of Predicate FI
 
 5. **What is the output of `() -> System.out.println("Hi")`?**
+Hi 
 
 6. **What is the purpose of method references like `System.out::println`?**
 
