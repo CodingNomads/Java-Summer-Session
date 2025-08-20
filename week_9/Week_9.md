@@ -184,3 +184,8 @@ public static int linearSearch(int[] arr, int key) {
 * Finish the curriculum on codingnomads.com Java 101, 201, and 301
 * Finish the remaining labs that were not assigned to you in the summer session
 * Stay in touch! We're still here to help!
+
+---
+
+## Advanced Java & Spring 9-Week Fall Session
+Want to take your skills to the next level and build complex, production-grade webs applications and more with the Spring Framework?? Check out our upcoming [9-week Advanced Java + Spring Boot Fall Session](https://codingnomads.com/page/9-week-spring-boot-advanced-java-bootcamp)
